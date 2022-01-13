@@ -1,0 +1,51 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Sat Jan  1 23:30:19 2022
+# Process ID: 10160
+# Current directory: C:/Users/Administrator/Desktop/Hardware_Design/func_inst/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6160 C:\Users\Administrator\Desktop\Hardware_Design\func_inst\project_1\project_1.xpr
+# Log file: C:/Users/Administrator/Desktop/Hardware_Design/func_inst/project_1/vivado.log
+# Journal file: C:/Users/Administrator/Desktop/Hardware_Design/func_inst/project_1\vivado.jou
+# Running On: ZJZL-20200405II, OS: Windows, CPU Frequency: 2400 MHz, CPU Physical cores: 4, Host memory: 8506 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Administrator/Desktop/Hardware_Design/func_inst/project_1/project_1.xpr
+generate_target Simulation [get_files C:/Users/Administrator/Desktop/Hardware_Design/func_inst/rtl/xilinx_ip/data_ram/data_ram.xci]
+export_ip_user_files -of_objects [get_files C:/Users/Administrator/Desktop/Hardware_Design/func_inst/rtl/xilinx_ip/data_ram/data_ram.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/Users/Administrator/Desktop/Hardware_Design/func_inst/rtl/xilinx_ip/data_ram/data_ram.xci] -directory C:/Users/Administrator/Desktop/Hardware_Design/func_inst/project_1/project_1.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/Administrator/Desktop/Hardware_Design/func_inst/project_1/project_1.ip_user_files -ipstatic_source_dir C:/Users/Administrator/Desktop/Hardware_Design/func_inst/project_1/project_1.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/Administrator/Desktop/Hardware_Design/func_inst/project_1/project_1.cache/compile_simlib/modelsim} {questa=C:/Users/Administrator/Desktop/Hardware_Design/func_inst/project_1/project_1.cache/compile_simlib/questa} {riviera=C:/Users/Administrator/Desktop/Hardware_Design/func_inst/project_1/project_1.cache/compile_simlib/riviera} {activehdl=C:/Users/Administrator/Desktop/Hardware_Design/func_inst/project_1/project_1.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+open_wave_config C:/Users/Administrator/Desktop/Hardware_Design/func_inst/tb_top_behav.wcfg
+source tb_top.tcl
+current_wave_config {tb_top_behav.wcfg}
+add_wave {{/tb_top/soc/cpu/mips/dp/hilo/we}} 
+current_wave_config {tb_top_behav.wcfg}
+add_wave {{/tb_top/soc/cpu/mips/dp/hilo/hi_o}} 
+current_wave_config {tb_top_behav.wcfg}
+add_wave {{/tb_top/soc/cpu/mips/dp/hilo/lo_o}} 
+save_wave_config {C:/Users/Administrator/Desktop/Hardware_Design/func_inst/tb_top_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/Administrator/Desktop/Hardware_Design/func_inst/tb_top_behav.wcfg
+source tb_top.tcl
+current_wave_config {tb_top_behav.wcfg}
+add_wave {{/tb_top/soc/cpu/mips/dp/alu/hilo_out}} 
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+current_wave_config {tb_top_behav.wcfg}
+add_wave {{/tb_top/soc/cpu/mips/dp/hilodataW}} 
+relaunch_sim
+relaunch_sim
+save_wave_config {C:/Users/Administrator/Desktop/Hardware_Design/func_inst/tb_top_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/Administrator/Desktop/Hardware_Design/func_inst/tb_top_behav.wcfg
+source tb_top.tcl
+relaunch_sim
+close_sim

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Dec 20 17:55:29 2021
+# Process ID: 16244
+# Current directory: E:/code/HDL/IntegratedHardwareDesign/learnHowToCPU/learnHowToCPU.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source E:/code/HDL/IntegratedHardwareDesign/learnHowToCPU/learnHowToCPU.sim/sim_1/behav/xsim/xsim.dir/inst_fetch_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: E:/code/HDL/IntegratedHardwareDesign/learnHowToCPU/learnHowToCPU.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: E:/code/HDL/IntegratedHardwareDesign/learnHowToCPU/learnHowToCPU.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source E:/code/HDL/IntegratedHardwareDesign/learnHowToCPU/learnHowToCPU.sim/sim_1/behav/xsim/xsim.dir/inst_fetch_tb_behav/webtalk/xsim_webtalk.tcl -notrace

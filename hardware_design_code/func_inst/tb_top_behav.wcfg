@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="80.330 ns"></ZoomStartTime>
+      <ZoomEndTime time="316.731 ns"></ZoomEndTime>
+      <Cursor1Time time="334.520 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="234"></NameColumnWidth>
+      <ValueColumnWidth column_width="112"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="14" />
+   <wvobject fp_name="/tb_top/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/resetn" type="logic">
+      <obj_property name="ElementShortName">resetn</obj_property>
+      <obj_property name="ObjectShortName">resetn</obj_property>
+   </wvobject>
+   <wvobject fp_name="group25" type="group">
+      <obj_property name="label">cpu</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_top/soc/cpu/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/soc/cpu/resetn" type="logic">
+         <obj_property name="ElementShortName">resetn</obj_property>
+         <obj_property name="ObjectShortName">resetn</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/soc/cpu/pc" type="array">
+         <obj_property name="ElementShortName">pc[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pc[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/soc/cpu/instdec/ascii" type="array">
+         <obj_property name="ElementShortName">ascii[39:0]</obj_property>
+         <obj_property name="ObjectShortName">ascii[39:0]</obj_property>
+         <obj_property name="Radix">ASCIIRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/soc/cpu/instr" type="array">
+         <obj_property name="ElementShortName">instr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">instr[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group13" type="group">
+      <obj_property name="label">inst_ram</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_top/soc/inst_ram/clka" type="logic">
+         <obj_property name="ElementShortName">clka</obj_property>
+         <obj_property name="ObjectShortName">clka</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/soc/inst_ram/ena" type="logic">
+         <obj_property name="ElementShortName">ena</obj_property>
+         <obj_property name="ObjectShortName">ena</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/soc/inst_ram/douta" type="array">
+         <obj_property name="ElementShortName">douta[31:0]</obj_property>
+         <obj_property name="ObjectShortName">douta[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group12" type="group">
+      <obj_property name="label">data_ram</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_top/soc/data_ram/clka" type="logic">
+         <obj_property name="ElementShortName">clka</obj_property>
+         <obj_property name="ObjectShortName">clka</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/soc/data_ram/ena" type="logic">
+         <obj_property name="ElementShortName">ena</obj_property>
+         <obj_property name="ObjectShortName">ena</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/soc/data_ram/wea" type="array">
+         <obj_property name="ElementShortName">wea[3:0]</obj_property>
+         <obj_property name="ObjectShortName">wea[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/soc/data_ram/addra" type="array">
+         <obj_property name="ElementShortName">addra[31:0]</obj_property>
+         <obj_property name="ObjectShortName">addra[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/soc/data_ram/dina" type="array">
+         <obj_property name="ElementShortName">dina[31:0]</obj_property>
+         <obj_property name="ObjectShortName">dina[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/soc/data_ram/douta" type="array">
+         <obj_property name="ElementShortName">douta[31:0]</obj_property>
+         <obj_property name="ObjectShortName">douta[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/tb_top/soc/cpu/mips/dp/rf/rf[4]" type="array">
+      <obj_property name="ElementShortName">[4][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[4][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/soc/cpu/mips/dp/rf/rf[3]" type="array">
+      <obj_property name="ElementShortName">[3][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/soc/cpu/mips/dp/rf/rf[2]" type="array">
+      <obj_property name="ElementShortName">[2][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/soc/cpu/mips/dp/rf/rf[1]" type="array">
+      <obj_property name="ElementShortName">[1][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/soc/cpu/mips/dp/hilo/we" type="array">
+      <obj_property name="ElementShortName">we[1:0]</obj_property>
+      <obj_property name="ObjectShortName">we[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/soc/cpu/mips/dp/hilo/hi_o" type="array">
+      <obj_property name="ElementShortName">hi_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">hi_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/soc/cpu/mips/dp/hilo/lo_o" type="array">
+      <obj_property name="ElementShortName">lo_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">lo_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/soc/cpu/mips/dp/alu/hilo_out" type="array">
+      <obj_property name="ElementShortName">hilo_out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">hilo_out[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/soc/cpu/mips/dp/hilodataW" type="array">
+      <obj_property name="ElementShortName">hilodataW[63:0]</obj_property>
+      <obj_property name="ObjectShortName">hilodataW[63:0]</obj_property>
+   </wvobject>
+</wave_config>
